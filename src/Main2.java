@@ -105,9 +105,9 @@ public class Main2 {
                 x1=derivative(x1,vector);
                 k++;
             }
-            System.out.println("Сделано шагов: " + k);
-            System.out.println("Точка(корень): " + x0);
-            System.out.println("Значение: " + value_in_point(x0,vector));
+            System.out.println("РЎРґРµР»Р°РЅРѕ С€Р°РіРѕРІ: " + k);
+            System.out.println("РўРѕС‡РєР°(РєРѕСЂРµРЅСЊ): " + x0);
+            System.out.println("Р—РЅР°С‡РµРЅРёРµ: " + value_in_point(x0,vector));
             System.out.println(" ");
         }
         points.clear();

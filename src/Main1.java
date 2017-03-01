@@ -13,8 +13,8 @@ public class Main1 {
             x1 = x0 - function(x0) / ((function(x0 + 0.000001) - function(x0)) / 0.000001);
             k++;
         }
-        System.out.println("Сделано шагов: " + k);
-        System.out.println("Точка(корень): " + x0);
-        System.out.println("Значение: " + function(x0));
+        System.out.println("РЎРґРµР»Р°РЅРѕ С€Р°РіРѕРІ: " + k);
+        System.out.println("РўРѕС‡РєР°(РєРѕСЂРµРЅСЊ): " + x0);
+        System.out.println("Р—РЅР°С‡РµРЅРёРµ: " + function(x0));
     }
 }
